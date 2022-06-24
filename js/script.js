@@ -58,11 +58,11 @@ function addPagination (list) {
       </li>
       `;
       linkList.insertAdjacentHTML('beforeend', button);
-      const firstButton = document.querySelector('.active');
-      firstButton.className = '';
-   }
+       }
 
-   linkList.addEventListener ('click', (e) => {
+       const firstButton = document.querySelector('.active');
+       firstButton = '';
+       linkList.addEventListener ('click', (e) => {
       if (e.linkList.tagName === 'BUTTON') {
          const firstElement = document.querySelector('.active')[0];
          firstElement.className = '';
