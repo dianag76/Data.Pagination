@@ -1,2 +1,2 @@
-# Project-2
- By Diana 
+ Treehouse Techdegree: Project 2 - Data Pagination and Filtering
+ By Diana Garcia
